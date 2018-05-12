@@ -1,4 +1,3 @@
-/** * Float Layout Activity **/
 * {
     box-sizing: border-box;
     text-align: left;
@@ -6,7 +5,7 @@
 }
 header{
     width:100% ;
-    height:10%;
+    height:12%;
     clear:both;
     background: #ffffff;
     border-bottom: #cccccc solid 1px;
@@ -28,7 +27,6 @@ header{
 
 h1{
     color: #4aaaa5;
-    height:1%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background: white;
 }
@@ -39,8 +37,7 @@ h1.top{
     color:#ffffff;
     text-align: center;
     margin-top:0px;
-    padding:10px 0 10px 0;
-    height: 100%;
+    padding:5px 0 10px 0;
     }
 nav{
     background: #ffffff;
@@ -57,15 +54,15 @@ body {
 #container{
     background: #ffffff;
     width:75% ;
-    height:100%;
-    margin:20px auto 20px auto;
+    margin:20px auto 40px auto;
     border-top: 1px solid #dddddd ;
     border-bottom: 1px solid #dddddd ;
-    /*height:72vh;*/
+    height:100%;
     clear:both ;
+    padding-bottom: -20px;
     padding: 0px 20px;
     overflow: hidden;
-    
+    height:90%;
 }
 
 img.portfolio{
@@ -120,9 +117,10 @@ button{
     height: 25%;
     color:white;
     padding: 10px;
+    font-size: medium;
     text-align: center;
     border: #4aaaa5 solid 1px;
-    margin:10px 0px 10px 0px
+    margin:10px 0px 40px 0px
 
     
 
@@ -131,7 +129,7 @@ textarea{
     background: white ;
     width: 100%;
     border: #cccccc solid 1px;
-    margin:10px 0px
+    margin:10px 0px 20px 0px
 
 
 }
@@ -141,10 +139,19 @@ img.homepage{
     margin-right: 10px;
 
 }
+p.lastpara{
+    background: #ffffff;
+    overflow: auto;
+    position: relative;
+    margin:10px 0px 80px 0px
+
+}
 p{
     background: #ffffff;
     overflow: auto;
     position: relative;
+    text-justify: distribute
+
 }
 hr {
     border:0;
@@ -152,8 +159,8 @@ hr {
     background-color: #dddddd;
 }
 ul {
-    margin: 0 auto 0 auto;
-    padding: 20px 0px ;
+    margin: 0 -15px 0 auto;
+    padding: 20px 0px 20px 0px ;
     overflow: hidden;
     list-style-type: none;
     background: #ffffff;
@@ -193,7 +200,7 @@ footer{
     background: #666666;
     text-align: center;
     padding:20px 0px 0px 0px;
-    color:white;
+    color:#ffffff;
     font-size:10px;
     width:100%;
     margin:0px 0 0 0;
@@ -211,7 +218,4 @@ footer{
     position: relative;
     float:bottom
 }
-.page-wrap {
-    min-height: 100%;
-    margin-bottom: -142px; 
-  }
+
